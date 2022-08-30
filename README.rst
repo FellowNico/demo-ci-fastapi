@@ -5,7 +5,7 @@ Event: pull-request
 
 Environment configuration of CI:
 
-- python-version: ["3.8", "3.9", "3.10"]
+- python-version: ["3.8", "3.9"]
 - poetry-version: ["1.0", "1.1.15"]
 - os: [ubuntu-18.04]
 
