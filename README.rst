@@ -13,5 +13,6 @@ Github Actions CI steps:
 
 - setup-python
 - setup-poetry
+- install dependencies
 - linting with flake8
 - test with pytest
