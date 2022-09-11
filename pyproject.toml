@@ -8,6 +8,7 @@ authors = ["nicolas <42466785+FellowNico@users.noreply.github.com>"]
 python = "^3.8"
 fastapi = "^0.81.0"
 requests = "^2.28.1"
+python-multipart = "^0.0.5"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"

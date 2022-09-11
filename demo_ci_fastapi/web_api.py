@@ -1,4 +1,4 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, UploadFile
 
 app = FastAPI()
 
@@ -7,3 +7,9 @@ app = FastAPI()
 def healthcheck():
     """Base url to check if app is up."""
     return {}
+
+
+@app.post("/uploadfile")
+async def upload_file(data_file: UploadFile):
+    """Upload a file."""
+    return {"filename": data_file.filename}
